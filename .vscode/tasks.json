@@ -1,0 +1,10 @@
+{
+    "version": "0.1.0",
+    "command": "tsc",
+    "isShellCommand": true,
+    "args": [
+        "--target", "es5", "--module", "system", "--moduleResolution", "node", "--sourceMap", "--emitDecoratorMetadata", "--experimentalDecorators", "--removeComments", "--declaration", "--isolatedModules", "${file}"
+    ],
+    "problemMatcher": "$tsc",
+    "showOutput": "always"
+}

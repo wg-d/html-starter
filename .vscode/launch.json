@@ -1,0 +1,33 @@
+{
+    "version": "0.1.0",
+    "configurations": [
+        {
+            "name": "Attach with sourcemaps",
+            "type": "chrome",
+            "request": "attach",
+            "port": 9222,
+            "sourceMaps": true,
+            "webRoot": "${workspaceRoot}/apps/cmf.core.web"                         
+        },
+        {
+            "name": "Launch localhost with sourcemaps",
+            "type": "chrome",
+            "request": "launch",
+            "url": "http://localhost:8000",
+            "sourceMaps": true,
+            "webRoot": "${workspaceRoot}/apps/cmf.core.web",
+            "runtimeArgs": ["--remote-debugging-port=9222"],
+            "diagnosticLogging": true,
+            "sourceMapPathOverrides": {
+                "*": "${workspaceRoot}/src/*"
+            }            
+        },
+         {
+            "name": "Launch gulp web-server",
+            "type": "node",            
+            "cwd": "${workspaceRoot}/apps/cmf.core.web",
+            "program": "${workspaceRoot}/utils/cmf.dev.tasks/node_modules/gulp/bin/gulp.js",
+            "args": ["start" ]            
+        }
+    ]
+}

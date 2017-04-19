@@ -1,0 +1,16 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+    // Configure glob patterns for excluding files and folders. 
+	"files.exclude": {
+		"**/.git": true,
+		"**/.DS_Store": true,
+        "**/node_modules/": true,
+        "**/*.js": { "when": "$(basename).ts"},
+        "**/*.css": { "when": "$(basename).less"},
+        "**/*.min.css": true,
+        "**/*.js.map": true,
+        "**/src/**/*.d.ts": true
+	},
+    "editor.wordWrap": "on",
+     "typescript.tsdk": "node_modules/typescript/lib" 
+}
