@@ -1,5 +1,8 @@
-# html-starter
-HTML GUI Starter Guide
+CMF MES HTML Starter Repository
+========= 
+
+**html-starter** is the base of any CMF MES HTML Graphical User Interface customization project.
+This repository is meant to be a quick and easy way of getting started with CMF MES GUI customization, by providing a basic structure for the project and all the recommended tooling.
 
 ## Before you start
 
@@ -27,3 +30,9 @@ npm install -g yo
 ```
 npm install
 ```
+
+## Additional Information
+
+This package was developed during the [UX-FAB: Universal Experience for Advanced Fabs](http://www.criticalmanufacturing.com/en/r-d/ux-fab) project.
+
+![Portugal2020](http://www.criticalmanufacturing.com/uploads/richtext/images/2017030610420258bd3cfa033c0.png)
