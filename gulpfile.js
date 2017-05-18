@@ -63,7 +63,7 @@ gulp.task('build', function(callback) {
     var ops = applyOps('build');
 
     // On customized projects we would only require to compile the web if the project defined a framework on their own
-    var isWebAppCompilable = true;
+    var isWebAppCompilable = _config.isWebAppCompilable;
     if (isWebAppCompilable === true) {
       ops = ops.concat(`${_config.webAppPrefix}.web>build`);
     }
