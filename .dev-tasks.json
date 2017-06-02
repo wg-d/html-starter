@@ -1,0 +1,8 @@
+{
+	"packagePrefix": "cmf",
+	"framework": "cmf.core",
+	"webAppPrefix" : "cmf.core",
+	"isWebAppCompilable" : true,
+	"dependencies" : ["cmf.core.multicast.client", "cmf.style", "cmf.style.dark.blue", "cmf.style.light.blue", "cmf.style.blue", "cmf.style.blue.grey"],
+	"packages": ["cmf.core.controls","cmf.core.business.controls","cmf.core.dashboards","cmf.core.admin.host","cmf.core.shell","cmf.core.checklist","cmf.core.documents","cmf.core.fablive","cmf.core.examples","cmf.core.admin.i18n"]
+}
