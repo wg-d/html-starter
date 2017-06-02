@@ -16,7 +16,6 @@ Make sure:
 1. Pre-install the following npm packages globally:
 
 ```
-npm install -g bower
 npm install -g gulp
 npm install -g yo
 ```
