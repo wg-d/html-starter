@@ -119,3 +119,5 @@ gulp.task('purge', function (callback) { pluginRunSequence.apply(this, applyOps(
 gulp.task('watch', function (callback) { pluginRunSequence.apply(this, applyOps('watch').concat(callback)); });
 
 gulp.task('create-missing-i18n', function (callback) { pluginRunSequence.apply(this, applyOps('create-missing-i18n').concat(callback)); });
+
+gulp.task('ci:publish', function (callback) { pluginRunSequence.apply(this, applyOps('ci:publish').concat(callback)); });
