@@ -85,7 +85,7 @@ gulp.task('install', function (callback) {
   }else{
     var ops = applyOps(['install']);
 
-    ops = ops.concat(`${_config.webAppPrefix}.web>install`);
+    ops.unshift(`${_config.webAppPrefix}.web>install`);
 
     ops = ops.concat(callback);
     pluginRunSequence.apply(this, ops);
