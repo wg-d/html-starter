@@ -14,7 +14,7 @@ var gulp = require('gulp'),
   applyOps = null;
 
 if (typeof _framework === "string" && _framework !== "") {
-  tasks = require("./src/cmf.core/gulpfile.js")(gulp, "cmf.core");
+  tasks = require("./src/" + _framework + "/gulpfile.js")(gulp, _framework);
 }
 _dependencies.forEach(function (dep) {
   require(_dependenciesPath + dep + "/gulpfile.js")(gulp, dep);

@@ -7,7 +7,7 @@ This repository is meant to be a quick and easy way of getting started with CMF 
 ## Before you start
 
 Make sure:
-* node@6.x+ and npm@4.x+ are installed;
+* node@8.x+ and npm@5.x+ are installed;
 * You have access to the Critical Manufacturing Setup with the version of the HTML5 you want to customize;
 
 
@@ -22,7 +22,7 @@ npm install -g yo
 
 2. Clone this repository into your repository root.
 
-3. Edit the package.json file and replace the name and description of the package for one of your know.
+3. Edit the package.json file and replace the name and description of the package.
 
 4. Run:
 
