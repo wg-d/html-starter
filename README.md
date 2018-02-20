@@ -22,7 +22,7 @@ npm install -g yo
 
 2. Clone this repository into your repository root.
 
-3. Edit the package.json file and replace the name and description of the package for one of your know.
+3. Edit the package.json file and replace the name and description of the package.
 
 4. Run:
 
