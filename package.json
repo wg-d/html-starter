@@ -14,7 +14,7 @@
     "gulp": "^3.9.1",
     "run-sequence": "~1.1.0",
     "yargs": "~4.8.0",
-	  "@criticalmanufacturing/dev-tasks": "*",
-	  "@criticalmanufacturing/generator-html": "*"
+	  "@criticalmanufacturing/dev-tasks": "~6.0.0",
+	  "@criticalmanufacturing/generator-html": "~6.0.0"
   }
 }
