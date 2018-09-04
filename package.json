@@ -3,9 +3,7 @@
   "version": "1.0.0",
   "description": "Please fill in with your description",
   "private": true,
-  "scripts": {
-
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "https://github.com/criticalmanufacturing/html-starter.git"
@@ -14,7 +12,7 @@
     "gulp": "^3.9.1",
     "run-sequence": "~1.1.0",
     "yargs": "~4.8.0",
-	  "@criticalmanufacturing/dev-tasks": "~6.0.0",
-	  "@criticalmanufacturing/generator-html": "~6.0.0"
+    "@criticalmanufacturing/dev-tasks": "~6.1.0",
+    "@criticalmanufacturing/generator-html": "~6.1.0"
   }
 }
