@@ -68,8 +68,12 @@ gulp.task('build', function(callback) {
       ops = ops.concat(`${_config.webAppPrefix}.web>build`);
     }
 
-    ops = ops.concat(callback);
-    pluginRunSequence.apply(this, ops);
+    if (ops.length > 0) {
+      ops = ops.concat(callback);
+      pluginRunSequence.apply(this, ops);
+    } else {
+      callback();
+    }
   }
   
 });
