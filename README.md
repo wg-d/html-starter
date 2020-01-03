@@ -7,7 +7,7 @@ This repository is meant to be a quick and easy way of getting started with CMF 
 ## Before you start
 
 Make sure:
-* node@8.x+ and npm@5.x+ are installed;
+* node@10.x+ and npm@6.x+ are installed;
 * You have access to the Critical Manufacturing Setup with the version of the HTML5 you want to customize;
 
 
