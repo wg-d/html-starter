@@ -236,3 +236,5 @@ reports/
 /apps/**/src/**/*.js
 /apps/**/test/**/*.js
 /apps/**/test/e2e/**/packages/
+/apps/**/bundles/**/*
+/apps/**/cmf.style/
