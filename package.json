@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "Please fill in with your description",
   "private": true,
-  "scripts": {},
+  "scripts": {
+    "preinstall": "node npm.preinstall.js",
+    "postinstall": "node npm.postinstall.js"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/criticalmanufacturing/html-starter.git"
