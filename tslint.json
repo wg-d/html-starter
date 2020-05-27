@@ -92,7 +92,6 @@
         "variable-declaration": "nospace"
       }
     ],
-    "typeof-compare": true,
     "unified-signatures": true,
     "variable-name": false,
     "whitespace": [
@@ -125,7 +124,5 @@
     "component-class-suffix": false,
     "directive-class-suffix": false,
     "no-access-missing-member": false,
-    "templates-use-public": true,
-    "invoke-injectable": true
   }
 }
