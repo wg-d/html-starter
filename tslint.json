@@ -123,6 +123,6 @@
     "use-pipe-transform-interface": true,
     "component-class-suffix": false,
     "directive-class-suffix": false,
-    "no-access-missing-member": false,
+    "no-access-missing-member": false
   }
 }
