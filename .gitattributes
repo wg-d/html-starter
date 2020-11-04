@@ -52,6 +52,20 @@
 *.swf 	binary
 *.sfd	binary
 *.dll   binary
+*.swf 	binary
+*.sfd	binary
+*.dll   binary
+*.pdf   binary
+*.pptx  binary
+*.docx  binary
+*.dot   binary
+*.xlsm  binary
+*.xltm  binary
+*.potx  binary
+*.msg   binary
+*.xltx  binary
+*.xlsx  binary
+*.dotx  binary
 
 
 ###############################################################################
